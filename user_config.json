@@ -1,0 +1,167 @@
+{
+  "portfolio_balance": 500000.0,
+  "date_start": "2018-01-01",
+  "date_end": "2025-12-31",
+  "m1_data_folder": "./data/m1_data",
+  "backtests_folder": "./data/backtests",
+  "m1_data_files": {
+    "DE40": "DE40_M1_201801020000_202512302358.csv",
+    "GBPJPY": "GBPJPY_M1_201801020000_202512310000.csv",
+    "US30": "US30_M1_201801020000_202512302359.csv",
+    "US500": "US500_M1_201801020000_202512302359.csv",
+    "USDJPY": "USDJPY_M1_201801020000_202512310000.csv",
+    "USTEC": "USTEC_M1_201801020000_202512302359.csv",
+    "XAUUSD": "XAUUSD_M1_201801020100_202512302358.csv"
+  },
+  "algo_configs": [
+    {
+      "name": "DAX 1HStrategy 0.206564HighestLowest",
+      "backtest_file": "DAX 1HStrategy 0.206564HighestLowest.xlsx",
+      "risk_per_trade": 0.1,
+      "enabled": true
+    },
+    {
+      "name": "DJ_H1_990117283_S_HD_CF_0123_SQX",
+      "backtest_file": "DJ_H1_990117283_S_HD_CF_0123_SQX.xlsx",
+      "risk_per_trade": 0.1,
+      "enabled": true
+    },
+    {
+      "name": "DJ_H1_990125303_S_HD_CF_0123_SQX",
+      "backtest_file": "DJ_H1_990125303_S_HD_CF_0123_SQX.xlsx",
+      "risk_per_trade": 0.1,
+      "enabled": true
+    },
+    {
+      "name": "GJ_H1_220114911_S_SO_CD_0322_SQX",
+      "backtest_file": "GJ_H1_220114911_S_SO_CD_0322_SQX.xlsx",
+      "risk_per_trade": 0.1,
+      "enabled": true
+    },
+    {
+      "name": "GJ_H2_220211431_S_TE_SQX",
+      "backtest_file": "GJ_H2_220211431_S_TE_SQX.xlsx",
+      "risk_per_trade": 0.1,
+      "enabled": true
+    },
+    {
+      "name": "GJ_H2_220212307_L_LD_SQX",
+      "backtest_file": "GJ_H2_220212307_L_LD_SQX.xlsx",
+      "risk_per_trade": 0.1,
+      "enabled": true
+    },
+    {
+      "name": "NAS H1Strategy 0.51504HighestLowest",
+      "backtest_file": "NAS H1Strategy 0.51504HighestLowest.xlsx",
+      "risk_per_trade": 0.1,
+      "enabled": true
+    },
+    {
+      "name": "NQ_15_991516469_S_CW_CF_0123_SQX",
+      "backtest_file": "NQ_15_991516469_S_CW_CF_0123_SQX.xlsx",
+      "risk_per_trade": 0.1,
+      "enabled": true
+    },
+    {
+      "name": "NQ_15_991540011_S_LD_CF_SQX",
+      "backtest_file": "NQ_15_991540011_S_LD_CF_SQX.xlsx",
+      "risk_per_trade": 0.1,
+      "enabled": true
+    },
+    {
+      "name": "NQ_15_991556284_S_CW_CF_0123_SQX",
+      "backtest_file": "NQ_15_991556284_S_CW_CF_0123_SQX.xlsx",
+      "risk_per_trade": 0.1,
+      "enabled": true
+    },
+    {
+      "name": "NQ_H1H4_990111455_S_Op_CF_0123C_SQX",
+      "backtest_file": "NQ_H1H4_990111455_S_Op_CF_0123C_SQX.xlsx",
+      "risk_per_trade": 0.1,
+      "enabled": true
+    },
+    {
+      "name": "NQ_H1H4_990124340_S_SC_CF_0123C_SQX",
+      "backtest_file": "NQ_H1H4_990124340_S_SC_CF_0123C_SQX.xlsx",
+      "risk_per_trade": 0.1,
+      "enabled": true
+    },
+    {
+      "name": "NQ_H3D1_993209996_M_NN_SQX",
+      "backtest_file": "NQ_H3D1_993209996_M_NN_SQX.xlsx",
+      "risk_per_trade": 0.1,
+      "enabled": true
+    },
+    {
+      "name": "NQ_H3D1_993249454_S_SM_CF_0123C_SQX",
+      "backtest_file": "NQ_H3D1_993249454_S_SM_CF_0123C_SQX.xlsx",
+      "risk_per_trade": 0.1,
+      "enabled": true
+    },
+    {
+      "name": "SP_15_991518339_S_HD_CF_0123_SQX",
+      "backtest_file": "SP_15_991518339_S_HD_CF_0123_SQX.xlsx",
+      "risk_per_trade": 0.1,
+      "enabled": true
+    },
+    {
+      "name": "SP_15_991519442_S_NN_CF_0123_SQX",
+      "backtest_file": "SP_15_991519442_S_NN_CF_0123_SQX.xlsx",
+      "risk_per_trade": 0.1,
+      "enabled": true
+    },
+    {
+      "name": "SP_H1H6_993401375_S_LR_CF_0123C_SQX",
+      "backtest_file": "SP_H1H6_993401375_S_LR_CF_0123C_SQX.xlsx",
+      "risk_per_trade": 0.1,
+      "enabled": true
+    },
+    {
+      "name": "UJ_H1_170115412_S_CW_CF_SQX",
+      "backtest_file": "UJ_H1_170115412_S_CW_CF_SQX.xlsx",
+      "risk_per_trade": 0.1,
+      "enabled": true
+    },
+    {
+      "name": "UJ_H1_170118432_S_SH_CF_SQX",
+      "backtest_file": "UJ_H1_170118432_S_SH_CF_SQX.xlsx",
+      "risk_per_trade": 0.1,
+      "enabled": true
+    },
+    {
+      "name": "UJ_H2_170213391_S_NN_SQX",
+      "backtest_file": "UJ_H2_170213391_S_NN_SQX.xlsx",
+      "risk_per_trade": 0.1,
+      "enabled": true
+    },
+    {
+      "name": "XAUUSD M15 Strategy 1.56.171",
+      "backtest_file": "XAUUSD M15 Strategy 1.56.171.xlsx",
+      "risk_per_trade": 0.1,
+      "enabled": true
+    },
+    {
+      "name": "XAUUSD M30Strategy 0.353912Breakout",
+      "backtest_file": "XAUUSD M30Strategy 0.353912Breakout.xlsx",
+      "risk_per_trade": 0.1,
+      "enabled": true
+    },
+    {
+      "name": "XU_15_911511438_S_HD_CF_0123_SQX",
+      "backtest_file": "XU_15_911511438_S_HD_CF_0123_SQX.xlsx",
+      "risk_per_trade": 0.1,
+      "enabled": true
+    },
+    {
+      "name": "XU_H1_910119161_S_HD_CD_0322_SQX",
+      "backtest_file": "XU_H1_910119161_S_HD_CD_0322_SQX.xlsx",
+      "risk_per_trade": 0.1,
+      "enabled": true
+    }
+  ],
+  "output_settings": {
+    "generate_m1_equity": true,
+    "conservative_dd": false,
+    "output_dir": "output"
+  }
+}
